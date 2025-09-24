@@ -2,18 +2,19 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="../style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
         <title>Hyderabadi Chicken Biryani Recipe</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="../index.html" target="_blank" rel="noopener noreferrer">🏠Home</a>
-            </nav>
-        </header>
+        <div class="container">
+            <a href="../index.html" class="home-button" target="_self" rel="noopener noreferrer">🏡Home</a>
+
         <h1>Hyderabadi Chicken Biryani</h1>
-        <img src="../images/biryani/chicken-biryani-main.jpg" alt="Chicken Biryani served with Raita and Salan" width="350">
+
         <!-- Intro Section -->
-        <section>
+        <section class="intro-section">
+            <img src="../images/biryani/chicken-biryani-main.jpg" alt="Chicken Biryani served with Raita and Salan">
             <p>Welcome! If you're here, you're probably in the mood for a warm, comforting plate of <em>Chicken Biryani</em>. It is one of those dishes that feels special every time you make it.
                 The tender chicken, fragrant rice, and gentle blend of spices come together to create a meal that's as
                 comforting as it is flavorful.</p>
@@ -24,7 +25,7 @@
         </section>
 
         <!-- Fun Fact / History -->
-        <aside>
+        <aside class="fun-fact-section">
             <h2>Did You Know?</h2>
             <p>Hyderabadi biryani first appeared in the royal kitchens of the Nizams in the 18th century.
                 Royals would seal layers of marinated meat and rice with dough and cook it slowly (“dum”) a method that locks in
@@ -33,7 +34,7 @@
         </aside>
         
         <!-- Ingredients Section -->
-         <section>
+         <section class="ingredients-section">
             <h2>Ingredients</h2>
             
             <h3>For the Fried Onions (Birista)</h3>
@@ -78,12 +79,12 @@
         </section>
 
         <!-- Preparation Section -->
-        <section>
+        <section class="preparation-section">
             <h2>Preparation</h2>
         
             <!-- Step 1: Marination -->
             <h3>Step 1: Marinate the Chicken</h3>
-            <img src="../images/biryani/marination.jpg" alt="Chicken marination" width="450">
+            <img src="../images/biryani/marination.jpg" alt="Chicken marination">
             <p>
                 In a large bowl, combine chicken pieces with yogurt, ginger-garlic paste, chili powder, turmeric,
                 garam masala, lemon juice, salt, slit green chilies, mint, coriander, and 2 Tbsp pre-fried onions.
@@ -100,7 +101,7 @@
         
             <!-- Step 3: Cooking the Rice -->
             <h3>Step 3: Cook the Rice</h3>
-            <img src="../images/biryani/basmati-rice-cooking.jpg" alt="Cooking basmati rice" width="600">
+            <img src="../images/biryani/basmati-rice-cooking.jpg" alt="Cooking basmati rice">
             <p>
                 Rinse the basmati rice until the water runs clear. Bring 4 cups water to a boil with salt, bay leaf,
                 cardamoms, cloves, cinnamon, star anise, and 1 tsp oil/ghee. Add rice and cook until 70% done
@@ -109,7 +110,7 @@
         
             <!-- Step 4: Layering -->
             <h3>Step 4: Layer the Biryani</h3>
-            <img src="../images/biryani/layering-biryani.jpg" alt="Layering the biryani" width="450">
+            <img src="../images/biryani/layering-biryani.jpg" alt="Layering the biryani">
             <p>
                 In a heavy-bottomed pot, spread the marinated chicken evenly at the base. Add half the cooked rice
                 on top, then sprinkle mint, coriander, fried onions, saffron milk, and ghee. Repeat with the
@@ -118,7 +119,7 @@
         
             <!-- Step 5: Sealing & Dum Cooking -->
             <h3>Step 5: Seal and Dum Cook</h3>
-            <img src="../images/biryani/sealing-with-foil.webp" alt="Sealing the biryani pot with foil" width="500">
+            <img src="../images/biryani/sealing-with-foil.webp" alt="Sealing the biryani pot with foil">
             <p>
                 Cover the pot with foil and a tight-fitting lid to trap steam. Place over medium heat for 5 minutes,
                 then reduce to low and cook for 25-30 minutes (dum method). The steam will gently cook the
@@ -127,7 +128,7 @@
         
             <!-- Step 6: Serve -->
             <h3>Step 6: Serve and Enjoy</h3>
-            <img src="../images/biryani/serving.jpg" alt="Serving Hyderabadi Chicken Biryani" width="450">
+            <img src="../images/biryani/serving.jpg" alt="Serving Hyderabadi Chicken Biryani">
             <p>
                 Rest the biryani for 10 minutes before opening the lid. Gently fluff the layers with a spatula,
                 keeping the rice grains intact. Serve hot with raita, salad, or mirchi ka salan.
@@ -135,44 +136,42 @@
         </section>
 
         <!-- Recipe Notes -->
-            <section>
+            <section class="recipe-notes-section">
                 <h2>Recipe Notes</h2>
-                <ul>
-                    <li><strong>Rice quality matters:</strong> Use aged basmati rice for that perfect, fluffy texture and long
-                        grains.</li>
-                    <li><strong>Marination time:</strong> For best flavor, marinate the chicken for at least 1 hour, overnight is
-                        even better.</li>
-                    <li><strong>Fried onions tip:</strong> Fry the onions on medium heat for even browning. Burnt onions can turn
-                        the biryani bitter.</li>
-                    <li><strong>Dum cooking:</strong> Keep the heat low during the final steam stage to avoid burning the bottom
-                        layer.</li>
-                    <li><strong>Saffron alternative:</strong> If saffron isn't available, a pinch of turmeric in warm milk can give
-                        a similar golden hue.</li>
-                    <li><strong>Resting time:</strong> Let the biryani rest for 10 minutes before serving so the flavors blend
-                        beautifully.</li>
-                </ul>
+                    <p><strong>Rice quality matters:</strong> Use aged basmati rice for that perfect, fluffy texture and long
+                        grains.</p>
+                    <p><strong>Marination time:</strong> For best flavor, marinate the chicken for at least 1 hour, overnight is
+                        even better.</p>
+                    <p><strong>Fried onions tip:</strong> Fry the onions on medium heat for even browning. Burnt onions can turn
+                        the biryani bitter.</p>
+                    <p><strong>Dum cooking:</strong> Keep the heat low during the final steam stage to avoid burning the bottom
+                        layer.</p>
+                    <p><strong>Saffron alternative:</strong> If saffron isn't available, a pinch of turmeric in warm milk can give
+                        a similar golden hue.</p>
+                    <p><strong>Resting time:</strong> Let the biryani rest for 10 minutes before serving so the flavors blend
+                        beautifully.</p>
             </section>
 
         <!-- More Recipes -->
-        <section>
+        <section class="more-recipes-section">
             <h2>You Might Also Like</h2>
             <table cellspacing="10">
                 <tr>
                     <td align="center">
-                        <a href="../recipes/lasagna.html" target="_blank" rel="noopener noreferrer">
-                            <img src="../images/lasagna/lasagna-main.jpg" width="200" alt="Veggie Lasagna">
+                        <a href="../recipes/lasagna.html" target="_self" rel="noopener noreferrer">
+                            <img src="../images/lasagna/lasagna-main.jpg" alt="Veggie Lasagna">
                         </a>
                         <p>Veggie Lasagna</p>
                     </td>
                     <td align="center">
-                        <a href="../recipes/paneer-butter-masala.html" target="_blank" rel="noopener noreferrer">
-                            <img src="../images/paneer-butter-masala/main-pbm.avif" width="250" alt="Paneer Butter Masala">
+                        <a href="../recipes/paneer-butter-masala.html" target="_self" rel="noopener noreferrer">
+                            <img src="../images/paneer-butter-masala/main-pbm.avif" alt="Paneer Butter Masala">
                         </a>
                         <p>Paneer Butter Masala</p>
                     </td>
                     <td align="center">
-                        <a href="../recipes/tiramisu.html" target="_blank" rel="noopener noreferrer">
-                            <img src="../images/tiramisu/tiramisu-main.jpg" width="200" alt="Tiramisu">
+                        <a href="../recipes/tiramisu.html" target="_self" rel="noopener noreferrer">
+                            <img src="../images/tiramisu/tiramisu-main.jpg" alt="Tiramisu">
                         </a>
                         <p>Tiramisu</p>
                     </td>
@@ -183,9 +182,9 @@
             <!-- Footer -->
             <footer>
                 <p>Created by D.I &bull; <a href="https://www.theodinproject.com/" target="_blank"
-                        rel="noopener noreferrer">The Odin Project</a> &bull; A small culinary tour built with HTML and a sprinkle
+                        rel="noopener noreferrer">The Odin Project</a> &bull; A small culinary tour built with HTML, CSS and a sprinkle
                     of love.</p>
             </footer>
-
+        </div>
     </body>
 </html>

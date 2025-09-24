@@ -2,19 +2,19 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="../style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
         <title>Veggie Lasagna Recipe</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="../index.html" target="_blank" rel="noopener noreferrer">🏠Home</a>
-            </nav>
-        </header>
+        <div class="container">
+            <a href="../index.html" class="home-button" target="_self" rel="noopener noreferrer">🏡Home</a>
+
         <h1>Veggie Lasagna</h1>
-        <img src="../images/lasagna/lasagna-main.jpg" alt="Baked Veggie Lasagna" width="350">
 
         <!-- Intro Section -->
-        <section>
+        <section class="intro-section">
+            <img src="../images/lasagna/lasagna-main.jpg" alt="Baked Veggie Lasagna">
             <p>Welcome! If you're here, you're probably in the mood for a hearty, cheesy plate of <em>Veggie Lasagna</em>. This
                 classic Italian dish layers tender pasta, savory vegetables, and creamy cheese, creating a warm and satisfying
                 meal.</p>
@@ -24,7 +24,7 @@
         </section>
 
         <!-- Fun Fact / History -->
-        <aside>
+        <aside class="fun-fact-section">
             <h2>Did You Know?</h2>
             <p>Lasagna's origins trace back to Ancient Greece, where a dish called <em>laganon</em> consisted of layers of pasta
                 dough. The term evolved through Latin as <em>lasanum</em>, meaning 'cooking pot'. By the Middle Ages, the dish
@@ -36,7 +36,7 @@
         </aside>
 
         <!-- Ingredients Section -->
-        <section>
+        <section class="ingredients-section">
             <h2>Ingredients</h2>
         
             <h3>Lasagna Sheets</h3>
@@ -77,12 +77,12 @@
         </section>
 
         <!-- Preparation Section -->
-        <section>
+        <section  class="preparation-section">
             <h2>Preparation</h2>
         
             <!-- Step 1: Sauté Vegetables -->
             <h3>Step 1: Saute the Vegetables</h3>
-            <img src="../images/lasagna/veggie-sauteeing.webp" alt="Sautéing vegetables" width="350">
+            <img src="../images/lasagna/veggie-sauteeing.webp" alt="Sautéing vegetables">
             <p>
                 Heat 1 tbsp oil in a pan over medium heat. Add diced carrots, zucchini, and red capsicum. Sauté until
                 slightly tender but still crisp. Remove from heat and set aside.
@@ -90,7 +90,7 @@
         
             <!-- Step 2: Cook Spinach -->
             <h3>Step 2: Cook the Spinach</h3>
-            <img src="../images/lasagna/cooking-spinach.png" alt="Cooking spinach with vegetables" width="350">
+            <img src="../images/lasagna/cooking-spinach.png" alt="Cooking spinach with vegetables">
             <p>
                 In the same pan, add the chopped spinach and cook until wilted. Combine with the sautéed vegetables
                 in a mixing bowl.
@@ -98,7 +98,7 @@
         
             <!-- Step 3: Prepare Tomato Sauce -->
             <h3>Step 3: Make the Tomato Sauce</h3>
-            <img src="../images/lasagna/tomato-sauce-prep.png" alt="Preparing tomato sauce" width="350">
+            <img src="../images/lasagna/tomato-sauce-prep.png" alt="Preparing tomato sauce">
             <p>
                 In a blender or food processor, blend the chopped tomatoes, garlic, onion, and seasoning into a smooth
                 sauce. Pour into a pan and simmer for 5-7 minutes until slightly thickened.
@@ -106,7 +106,7 @@
         
             <!-- Step 4: Mix Cream with Vegetables -->
             <h3>Step 4: Combine Vegetables with Cream</h3>
-            <img src="../images/lasagna/veggies-with-cream.png" alt="Vegetables mixed with cream" width="350">
+            <img src="../images/lasagna/veggies-with-cream.png" alt="Vegetables mixed with cream">
             <p>
                 Add cream and a pinch of salt to the sautéed vegetables and spinach mixture. Mix well to create a
                 creamy filling for the lasagna layers.
@@ -115,7 +115,7 @@
             <!-- Step 5: Assemble the Lasagna -->
             <h3>Step 5: Layer the Lasagna</h3>
             <img src="../images/lasagna/lasagna-assembling.jpg"
-                alt="Layering lasagna with cream, tomato sauce, and cheese" width="450">
+                alt="Layering lasagna with cream, tomato sauce, and cheese">
             <p>
                 In a baking dish, spread a layer of tomato sauce, followed by lasagna sheets. Add a layer of the creamy
                 vegetable mixture, sprinkle shredded mozzarella, and repeat layers until all ingredients are used.
@@ -124,7 +124,7 @@
         
             <!-- Step 6: Bake and Serve -->
             <h3>Step 6: Bake and Serve</h3>
-            <img src="../images/lasagna/lasagna-serve.webp" alt="Veggie lasagna served on a plate" width="370">
+            <img src="../images/lasagna/lasagna-serve.webp" alt="Veggie lasagna served on a plate">
             <p>
                 Preheat the oven to 180°C (350°F) and bake the lasagna for 25-30 minutes until the cheese is golden
                 and bubbly. Let it rest for 5 minutes, then slice and serve warm.
@@ -132,44 +132,42 @@
         </section>
 
         <!-- Recipe Notes -->
-        <section>
+        <section class="recipe-notes-section">
             <h2>Recipe Notes</h2>
-            <ul>
-                <li><strong>Vegetable prep:</strong> Chop all vegetables uniformly to ensure even cooking and layering.</li>
-                <li><strong>Sautéing:</strong> Cook the vegetables just until tender-crisp to retain texture and flavor.</li>
-                <li><strong>Spinach handling:</strong> Drain excess water after cooking spinach to prevent a watery lasagna.
-                </li>
-                <li><strong>Layering:</strong> Spread ingredients evenly in each layer for consistent taste in every bite.</li>
-                <li><strong>Cheese topping:</strong> Use freshly shredded cheese for better melting and golden color.</li>
-                <li><strong>Baking:</strong> Cover the lasagna with foil for the first 20 minutes, then uncover to brown the
-                    top.</li>
-                <li><strong>Resting time:</strong> Let the baked lasagna rest for 5 minutes before cutting to allow layers to
-                    set.</li>
-            </ul>
+                <p><strong>Vegetable prep:</strong> Chop all vegetables uniformly to ensure even cooking and layering.</p>
+                <p><strong>Sautéing:</strong> Cook the vegetables just until tender-crisp to retain texture and flavor.</p>
+                <p><strong>Spinach handling:</strong> Drain excess water after cooking spinach to prevent a watery lasagna.
+                </p>
+                <p><strong>Layering:</strong> Spread ingredients evenly in each layer for consistent taste in every bite.</p>
+                <p><strong>Cheese topping:</strong> Use freshly shredded cheese for better melting and golden color.</p>
+                <p><strong>Baking:</strong> Cover the lasagna with foil for the first 20 minutes, then uncover to brown the
+                    top.</p>
+                <p><strong>Resting time:</strong> Let the baked lasagna rest for 5 minutes before cutting to allow layers to
+                    set.</p>
         </section>
 
         <!-- More Recipes -->
-        <section>
+        <section class="more-recipes-section">
             <h2>You Might Also Like</h2>
             <table cellspacing="10">
                 <tr>
                     <td align="center">
-                        <a href="../recipes/paneer-butter-masala.html" target="_blank" rel="noopener noreferrer">
-                            <img src="../images/paneer-butter-masala/main-pbm.avif" width="245" alt="Paneer Butter Masala">
+                        <a href="../recipes/tiramisu.html" target="_self" rel="noopener noreferrer">
+                            <img src="../images/tiramisu/tiramisu-main.jpg" alt="Tiramisu">
+                        </a>
+                        <p>Tiramisu</p>
+                    </td>
+                    <td align="center">
+                        <a href="../recipes/paneer-butter-masala.html" target="_self" rel="noopener noreferrer">
+                            <img src="../images/paneer-butter-masala/main-pbm.avif" alt="Paneer Butter Masala">
                         </a>
                         <p>Paneer Butter Masala</p>
                     </td>
                     <td align="center">
-                        <a href="../recipes/chicken-biryani.html" target="_blank" rel="noopener noreferrer">
-                            <img src="../images/biryani/chicken-biryani-main.jpg" width="250" alt="Hyderabadi Chicken Biryani">
+                        <a href="../recipes/chicken-biryani.html" target="_self" rel="noopener noreferrer">
+                            <img src="../images/biryani/chicken-biryani-main.jpg" alt="Hyderabadi Chicken Biryani">
                         </a>
                         <p>Hyderabadi Chicken Biryani</p>
-                    </td>
-                    <td align="center">
-                        <a href="../recipes/tiramisu.html" target="_blank" rel="noopener noreferrer">
-                            <img src="../images/tiramisu/tiramisu-main.jpg" width="200" alt="Tiramisu">
-                        </a>
-                        <p>Tiramisu</p>
                     </td>
                 </tr>
             </table>
@@ -178,9 +176,9 @@
         <!-- Footer -->
         <footer>
             <p>Created by D.I &bull; <a href="https://www.theodinproject.com/" target="_blank"
-                    rel="noopener noreferrer">The Odin Project</a> &bull; A small culinary tour built with HTML and a sprinkle
+                    rel="noopener noreferrer">The Odin Project</a> &bull; A small culinary tour built with HTML, css and a sprinkle
                 of love.</p>
         </footer>
-
+        </div>
     </body>
 </html>

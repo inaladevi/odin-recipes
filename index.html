@@ -2,49 +2,69 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
         <title>Odin Recipes</title>
     </head>
     <body>
+        <div class="container">
         <h1>Recipes Around the World</h1>
-        <p>Welcome to <em>Recipes Around the World</em>, a cozy corner where flavors travel faster than flights.</p>
-        <p>This little collection brings together hand-picked recipes from across the globe with each one a glimpse into a unique
-            culture.</p>
-        <p>Why stick to one cuisine when you can take your taste buds on a world tour? Here, you'll find a curated selection of dishes that capture the soul of different cultures.</p>
-        <p>Cook along, learn something new, and savor the joy of making meals from scratch. After all, food is the one language everyone speaks fluently.</p>
-        <p>Ready your apron — the adventure begins here.</p>
+
+        <div class="intro-text">
+        <p>Welcome to <strong>Recipes Around the World</strong>, a cozy corner where flavors travel faster than flights.</p>
+        <p>Ready your apron the adventure begins here!</p>
+        </div>
 
         <h2>Our Recipes</h2>
-
-        <div>
+        <div class="recipes-container">
+        <div class="recipe-section-text">
             <h3>Hyderabadi Chicken Biryani</h3>
             <img src="images/biryani/chicken-biryani-main.jpg" alt="Chicken Biryani served with Raita and Salan" width="300">
-            <p>Aromatic basmati rice layered with spiced chicken. A royal feast in every bite.</p>
-            <a href="recipes/chicken-biryani.html" target="_blank" rel="noopener noreferrer">View Recipe</a>
+            <p>Aromatic basmati rice layered with spiced chicken.</p>
+            <a href="recipes/chicken-biryani.html" class="recipe-button" target="_self" rel="noopener noreferrer">
+                <span class="button-icon">🍽️</span>
+                <span class="button-text">Dive Into This Recipe</span>
+                <span class="button-icon">🍽️</span>
+            </a>
         </div>
 
-        <div>
-            <h3>Veggie Lasagna</h3>
-            <img src="images/lasagna/lasagna-main.jpg" alt="Cheesy layers of baked lasagna" width="300">
-            <p>Rich layers of veggies, sauce, pasta and cheese baked to golden perfection.</p>
-            <a href="recipes/lasagna.html" target="_blank" rel="noopener noreferrer">View Recipe</a>
-        </div>
-
-        <div>
+        <div class="recipe-section-text">
             <h3>Panner Butter Masala</h3>
             <img src="images/paneer-butter-masala/main-pbm.avif" alt="Paneer butter masala with naan" width="300">
-            <p>Buttery velvety rich curry hugging soft cubes of paneer.</p>
-            <a href="recipes/paneer-butter-masala.html" target="_blank" rel="noopener noreferrer">View Recipe</a>
+            <p>Buttery velvety rich curry hugging soft cubes of paneer, where every spoonful is pure comfort.</p>
+            <a href="recipes/paneer-butter-masala.html" class="recipe-button" target="_self" rel="noopener noreferrer">
+                <span class="button-icon">🍽️</span>
+                <span class="button-text">Dive Into This Recipe</span>
+                <span class="button-icon">🍽️</span>
+            </a>
         </div>
 
-        <div>
+        <div class="recipe-section-text">
+            <h3>Veggie Lasagna</h3>
+            <img src="images/lasagna/lasagna-main.jpg" alt="Cheesy layers of baked lasagna" width="300">
+            <p>Rich layers of vegetables, sauce, pasta and cheese baked to golden perfection.</p>
+            <a href="recipes/lasagna.html" class="recipe-button" target="_self" rel="noopener noreferrer">
+                <span class="button-icon">🍽️</span>
+                <span class="button-text">Dive Into This Recipe</span>
+                <span class="button-icon">🍽️</span>
+            </a>
+        </div>
+
+        <div class="recipe-section-text">
             <h3>Tiramisu</h3>
             <img src="images/tiramisu/tiramisu-main.jpg" alt="Layers of coffee-soaked ladyfingers and mascarpone cream" width="300">
             <p>A heavenly Italian dessert with coffee, cream, and cocoa in perfect harmony.</p>
-            <a href="recipes/tiramisu.html">View Recipe</a>
+            <a href="recipes/tiramisu.html" class="recipe-button" target="_self" rel="noopener noreferrer">
+                <span class="button-icon">🍽️</span>
+                <span class="button-text">Dive Into This Recipe</span>
+                <span class="button-icon">🍽️</span>
+            </a>
+        </div>
         </div>
 
         <footer>
-            <p>Created by D.I &bull; <a href="https://www.theodinproject.com/" target="_blank" rel="noopener noreferrer">The Odin Project</a> &bull; A small culinary tour built with HTML and a sprinkle of love.</p>
+            <p>Created by D.I &bull; <a href="https://www.theodinproject.com/" target="_blank" rel="noopener noreferrer">The Odin Project</a> &bull; A small culinary tour built with HTML, CSS and a sprinkle of love.</p>
         </footer>
+        </div>
     </body>
 </html>
